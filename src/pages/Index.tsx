@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import LevelCard from "@/components/LevelCard";
 import ContactForm from "@/components/ContactForm";
@@ -17,19 +18,24 @@ const WHATSAPP_URL = "https://wa.me/526622189696?text=Hola%2C%20me%20gustar%C3%A
 const Index = () => {
   return (
     <Layout>
+      <SEO
+        title="INAM Hermosillo | Instituto Anglo Mexicano - Preescolar a Preparatoria"
+        description="Escuela privada en Hermosillo, Sonora. Preescolar, Primaria, Secundaria y Preparatoria con formación integral, valores y liderazgo. Solicite informes."
+        path="/"
+      />
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroCampus} alt="Campus INAM Hermosillo" className="h-full w-full object-cover" />
+          <img src={heroCampus} alt="Campus INAM Hermosillo" className="h-full w-full object-cover" width={1920} height={1080} fetchPriority="high" />
           <div className="absolute inset-0 bg-primary/80" />
         </div>
         <div className="relative container-narrow section-padding text-primary-foreground">
           <div className="max-w-2xl animate-fade-up">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-4">
-              Formamos personas con valores y liderazgo
+              Instituto Anglo Mexicano: formamos personas con valores y liderazgo
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 leading-relaxed">
-              En el Instituto Anglo Mexicano trabajamos para que cada alumno desarrolle lo mejor de sí. Una educación integral en Hermosillo, Sonora.
+            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
+              En el INAM, escuela privada en Hermosillo, Sonora, trabajamos para que cada alumno desarrolle lo mejor de sí. Una educación integral desde preescolar hasta preparatoria.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button variant="hero" size="lg" asChild>
