@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
@@ -32,6 +33,7 @@ const typicalDay = [
 const Primaria = () => {
   return (
     <Layout>
+    <SEO title="Primaria INAM Hermosillo | Educación primaria con valores" description="Primaria en el Instituto Anglo Mexicano (INAM), Hermosillo. Hábitos de estudio, comprensión lectora, pensamiento matemático, valores e idiomas." path="/primaria" />
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">

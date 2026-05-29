@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import { Link } from "react-router-dom";
@@ -15,6 +16,7 @@ const faq = [
 
 const Preparatoria = () => (
   <Layout>
+    <SEO title="Preparatoria INAM Hermosillo | Bachillerato y preparación universitaria" description="Preparatoria en el Instituto Anglo Mexicano (INAM), Hermosillo. Preparación sólida para la universidad con enfoque académico y humano." path="/preparatoria" />
     <section className="relative min-h-[50vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img src={preparatoriaImg} alt="Preparatoria INAM" className="h-full w-full object-cover" />

@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/ContactForm";
 import FAQSection from "@/components/FAQSection";
@@ -26,6 +27,7 @@ const admisionFAQ = [
 const Admisiones = () => {
   return (
     <Layout>
+    <SEO title="Admisiones INAM Hermosillo | Proceso de admisión paso a paso" description="Conozca el proceso de admisión al Instituto Anglo Mexicano (INAM) en Hermosillo, Sonora. Solicite informes, agende su cita y reciba acompañamiento personalizado." path="/admisiones" />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-narrow">

@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import { Link } from "react-router-dom";
@@ -15,6 +16,7 @@ const faq = [
 
 const Preescolar = () => (
   <Layout>
+    <SEO title="Preescolar INAM Hermosillo | Educación inicial con juego y descubrimiento" description="Preescolar en el Instituto Anglo Mexicano (INAM), Hermosillo. Aprendizaje a través del juego, la creatividad y el desarrollo socioemocional." path="/preescolar" />
     <section className="relative min-h-[50vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img src={preescolarImg} alt="Preescolar INAM" className="h-full w-full object-cover" />

@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -20,6 +21,7 @@ const images = [
 
 const VidaEscolar = () => (
   <Layout>
+    <SEO title="Vida escolar INAM Hermosillo | Deportes, arte y cultura" description="Conozca la vida escolar en el Instituto Anglo Mexicano (INAM): deportes, arte, eventos culturales y comunidad estudiantil en Hermosillo, Sonora." path="/vida-escolar" />
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container-narrow">
         <div className="max-w-2xl animate-fade-up">

@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,6 +8,7 @@ const WHATSAPP_URL = "https://wa.me/526622189696?text=Hola%2C%20me%20gustar%C3%A
 
 const Contacto = () => (
   <Layout>
+    <SEO title="Contacto INAM Hermosillo | Teléfono, ubicación y formulario" description="Contacte al Instituto Anglo Mexicano (INAM) en Hermosillo, Sonora. Teléfono (662) 218 96 96, correo, ubicación y formulario de informes." path="/contacto" />
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container-narrow">
         <div className="max-w-2xl animate-fade-up">

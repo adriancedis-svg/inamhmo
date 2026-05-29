@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import { Link } from "react-router-dom";
@@ -15,6 +16,7 @@ const faq = [
 
 const Secundaria = () => (
   <Layout>
+    <SEO title="Secundaria INAM Hermosillo | Formación académica y personal" description="Secundaria en el Instituto Anglo Mexicano (INAM), Hermosillo. Consolidación académica, liderazgo y formación integral en valores." path="/secundaria" />
     <section className="relative min-h-[50vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img src={secundariaImg} alt="Secundaria INAM" className="h-full w-full object-cover" />
