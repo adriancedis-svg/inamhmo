@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import ContactForm from "@/components/ContactForm";
@@ -32,6 +33,7 @@ const typicalDay = [
 const Primaria = () => {
   return (
     <Layout>
+    <SEO title="Primaria INAM Hermosillo | Educación primaria con valores" description="Primaria en el Instituto Anglo Mexicano (INAM), Hermosillo. Hábitos de estudio, comprensión lectora, pensamiento matemático, valores e idiomas." path="/primaria" />
       {/* Hero */}
       <section className="relative min-h-[50vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
@@ -42,7 +44,7 @@ const Primaria = () => {
           <div className="max-w-2xl animate-fade-up">
             <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Primaria</span>
             <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">
-              Bases sólidas para toda la vida
+              Primaria INAM: bases sólidas para toda la vida
             </h1>
             <p className="text-lg text-primary-foreground/85 mb-8 leading-relaxed">
               Formación académica, valores y liderazgo. En Primaria INAM acompañamos a cada alumno en la construcción de hábitos, conocimiento y carácter.

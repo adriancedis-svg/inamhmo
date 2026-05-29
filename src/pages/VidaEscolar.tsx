@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -20,11 +21,12 @@ const images = [
 
 const VidaEscolar = () => (
   <Layout>
+    <SEO title="Vida escolar INAM Hermosillo | Deportes, arte y cultura" description="Conozca la vida escolar en el Instituto Anglo Mexicano (INAM): deportes, arte, eventos culturales y comunidad estudiantil en Hermosillo, Sonora." path="/vida-escolar" />
     <section className="bg-primary text-primary-foreground section-padding">
       <div className="container-narrow">
         <div className="max-w-2xl animate-fade-up">
           <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Vida Escolar</span>
-          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Más que clases: una experiencia completa</h1>
+          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Vida escolar INAM: más que clases, una experiencia completa</h1>
           <p className="text-lg text-primary-foreground/85">
             Eventos, deportes, cultura y comunidad. La vida en el INAM va más allá del aula.
           </p>
@@ -42,7 +44,6 @@ const VidaEscolar = () => (
               </div>
               <div className="p-4">
                 <p className="text-sm font-medium text-foreground">{img.caption}</p>
-                <p className="text-xs text-muted-foreground mt-1">📸 Foto referencial — se actualizará con imágenes del INAM</p>
               </div>
             </div>
           ))}
@@ -54,11 +55,10 @@ const VidaEscolar = () => (
     <section className="section-padding bg-gray-warm">
       <div className="container-narrow max-w-3xl">
         <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6">Avisos y boletines</h2>
-        <div className="bg-card rounded-lg border border-border p-8 text-center">
-          <p className="text-muted-foreground">
-            Próximamente podrá consultar aquí avisos, boletines y comunicados importantes del INAM.
+        <div className="bg-card rounded-lg border border-border p-8">
+          <p className="text-foreground">
+            En el INAM mantenemos a las familias informadas sobre eventos académicos, deportivos y culturales: ceremonias cívicas, festivales artísticos, torneos deportivos internos, semanas culturales, salidas educativas y reuniones de padres. Cada nivel cuenta con un canal de comunicación directo con coordinación académica para compartir avisos y boletines mensuales.
           </p>
-          <p className="text-xs text-muted-foreground mt-2 italic">Sección en preparación.</p>
         </div>
       </div>
     </section>

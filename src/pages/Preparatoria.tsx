@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import { Link } from "react-router-dom";
@@ -15,6 +16,7 @@ const faq = [
 
 const Preparatoria = () => (
   <Layout>
+    <SEO title="Preparatoria INAM Hermosillo | Bachillerato y preparación universitaria" description="Preparatoria en el Instituto Anglo Mexicano (INAM), Hermosillo. Preparación sólida para la universidad con enfoque académico y humano." path="/preparatoria" />
     <section className="relative min-h-[50vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img src={preparatoriaImg} alt="Preparatoria INAM" className="h-full w-full object-cover" />
@@ -23,7 +25,7 @@ const Preparatoria = () => (
       <div className="relative container-narrow section-padding text-primary-foreground">
         <div className="max-w-2xl animate-fade-up">
           <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Preparatoria</span>
-          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Preparación sólida para la universidad y la vida</h1>
+          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Preparatoria INAM: preparación sólida para la universidad y la vida</h1>
           <p className="text-lg text-primary-foreground/85 mb-8">
             En Preparatoria INAM formamos jóvenes con las herramientas académicas, personales y sociales para enfrentar con éxito su futuro.
           </p>

@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/ContactForm";
 import FAQSection from "@/components/FAQSection";
@@ -26,13 +27,14 @@ const admisionFAQ = [
 const Admisiones = () => {
   return (
     <Layout>
+    <SEO title="Admisiones INAM Hermosillo | Proceso de admisión paso a paso" description="Conozca el proceso de admisión al Instituto Anglo Mexicano (INAM) en Hermosillo, Sonora. Solicite informes, agende su cita y reciba acompañamiento personalizado." path="/admisiones" />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-narrow">
           <div className="max-w-2xl animate-fade-up">
             <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Admisiones</span>
             <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">
-              Inicie el camino hacia una educación integral
+              Admisiones INAM: inicie el camino hacia una educación integral
             </h1>
             <p className="text-lg text-primary-foreground/85 mb-8 leading-relaxed">
               El proceso de admisión al INAM es sencillo y personalizado. Estamos aquí para acompañarle en cada paso.

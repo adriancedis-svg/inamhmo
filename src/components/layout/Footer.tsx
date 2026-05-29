@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-primary-foreground/20 text-center text-xs text-primary-foreground/50">
+        <div className="mt-12 pt-6 border-t border-primary-foreground/20 text-center text-xs text-primary-foreground/80">
           © {new Date().getFullYear()} Instituto Anglo Mexicano (INAM). Todos los derechos reservados.
         </div>
       </div>

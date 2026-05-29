@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import FAQSection from "@/components/FAQSection";
 import { Link } from "react-router-dom";
@@ -15,6 +16,7 @@ const faq = [
 
 const Secundaria = () => (
   <Layout>
+    <SEO title="Secundaria INAM Hermosillo | Formación académica y personal" description="Secundaria en el Instituto Anglo Mexicano (INAM), Hermosillo. Consolidación académica, liderazgo y formación integral en valores." path="/secundaria" />
     <section className="relative min-h-[50vh] flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img src={secundariaImg} alt="Secundaria INAM" className="h-full w-full object-cover" />
@@ -23,7 +25,7 @@ const Secundaria = () => (
       <div className="relative container-narrow section-padding text-primary-foreground">
         <div className="max-w-2xl animate-fade-up">
           <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Secundaria</span>
-          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Consolidar el conocimiento, fortalecer el carácter</h1>
+          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Secundaria INAM: consolidar el conocimiento, fortalecer el carácter</h1>
           <p className="text-lg text-primary-foreground/85 mb-8">
             En Secundaria INAM los alumnos profundizan su formación académica mientras desarrollan habilidades de liderazgo y pensamiento crítico.
           </p>

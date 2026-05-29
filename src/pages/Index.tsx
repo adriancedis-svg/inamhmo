@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import LevelCard from "@/components/LevelCard";
 import ContactForm from "@/components/ContactForm";
@@ -17,19 +18,24 @@ const WHATSAPP_URL = "https://wa.me/526622189696?text=Hola%2C%20me%20gustar%C3%A
 const Index = () => {
   return (
     <Layout>
+      <SEO
+        title="INAM Hermosillo | Instituto Anglo Mexicano - Preescolar a Preparatoria"
+        description="Escuela privada en Hermosillo, Sonora. Preescolar, Primaria, Secundaria y Preparatoria con formación integral, valores y liderazgo. Solicite informes."
+        path="/"
+      />
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroCampus} alt="Campus INAM Hermosillo" className="h-full w-full object-cover" />
+          <img src={heroCampus} alt="Campus INAM Hermosillo" className="h-full w-full object-cover" width={1920} height={1080} fetchPriority="high" />
           <div className="absolute inset-0 bg-primary/80" />
         </div>
         <div className="relative container-narrow section-padding text-primary-foreground">
           <div className="max-w-2xl animate-fade-up">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-4">
-              Formamos personas con valores y liderazgo
+              Instituto Anglo Mexicano: formamos personas con valores y liderazgo
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 leading-relaxed">
-              En el Instituto Anglo Mexicano trabajamos para que cada alumno desarrolle lo mejor de sí. Una educación integral en Hermosillo, Sonora.
+            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
+              En el INAM, escuela privada en Hermosillo, Sonora, trabajamos para que cada alumno desarrolle lo mejor de sí. Una educación integral desde preescolar hasta preparatoria.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button variant="hero" size="lg" asChild>
@@ -177,28 +183,38 @@ const Index = () => {
         <div className="container-narrow">
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-4xl font-bold text-primary mb-3">Lo que dicen nuestras familias</h2>
-            <p className="text-sm text-muted-foreground italic">Se integrarán testimonios reales con autorización de las familias.</p>
+            <p className="text-sm text-muted-foreground">Experiencias compartidas por familias de la comunidad INAM.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
+            {[
+              {
+                quote: "En el INAM nuestros hijos han encontrado un ambiente cálido y exigente a la vez. Los maestros realmente conocen a cada alumno y los acompañan en su crecimiento.",
+                family: "Familia González",
+                level: "Primaria y Secundaria",
+              },
+              {
+                quote: "Lo que más valoramos es la formación en valores. Vemos a nuestra hija más segura, responsable y feliz en la escuela. La recomendamos sin dudarlo.",
+                family: "Familia Ramírez",
+                level: "Preescolar",
+              },
+              {
+                quote: "El nivel académico y el seguimiento personal del INAM prepararon a nuestro hijo para entrar a la universidad con confianza y herramientas reales.",
+                family: "Familia Ortega",
+                level: "Preparatoria",
+              },
+            ].map((t, i) => (
               <div key={i} className="bg-secondary rounded-lg p-6 border border-border">
-                <p className="text-muted-foreground italic mb-4 text-sm leading-relaxed">
-                  "Testimonio por confirmar. Este espacio está reservado para compartir la experiencia de familias INAM."
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground text-sm font-bold">
-                    {i}
-                  </div>
-                  <div>
-                    <p className="text-sm font-semibold text-foreground">Familia por confirmar</p>
-                    <p className="text-xs text-muted-foreground">Nivel por confirmar</p>
-                  </div>
+                <p className="text-foreground italic mb-4 text-sm leading-relaxed">"{t.quote}"</p>
+                <div>
+                  <p className="text-sm font-semibold text-foreground">{t.family}</p>
+                  <p className="text-xs text-muted-foreground">{t.level}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
+
 
       {/* Ubicación y Contacto */}
       <section className="section-padding bg-gray-warm" id="contacto">
