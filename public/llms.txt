@@ -1,0 +1,16 @@
+# Instituto Anglo Mexicano (INAM)
+
+> Escuela privada en Hermosillo, Sonora. Preescolar, Primaria, Secundaria y Preparatoria con formación integral en valores y liderazgo.
+
+El Instituto Anglo Mexicano (INAM) es una institución educativa privada ubicada en Hermosillo, Sonora, México. Ofrecemos formación académica integral desde preescolar hasta preparatoria, con enfoque en valores, liderazgo y visión multicultural.
+
+## Pages
+
+- [Inicio](/): Presentación del INAM, niveles educativos y propuesta de valor.
+- [Admisiones](/admisiones): Proceso de admisión paso a paso y requisitos.
+- [Primaria](/primaria): Programa de educación primaria, enfoque y beneficios.
+- [Preescolar](/preescolar): Educación inicial basada en juego y descubrimiento.
+- [Secundaria](/secundaria): Programa académico de secundaria.
+- [Preparatoria](/preparatoria): Bachillerato y preparación universitaria.
+- [Vida Escolar](/vida-escolar): Deportes, arte, cultura y eventos del INAM.
+- [Contacto](/contacto): Información de contacto, ubicación y formulario de informes.
