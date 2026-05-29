@@ -23,7 +23,7 @@ const Preescolar = () => (
       <div className="relative container-narrow section-padding text-primary-foreground">
         <div className="max-w-2xl animate-fade-up">
           <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Preescolar</span>
-          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Los primeros pasos, los más importantes</h1>
+          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Preescolar INAM: los primeros pasos, los más importantes</h1>
           <p className="text-lg text-primary-foreground/85 mb-8">
             En Preescolar INAM fomentamos la curiosidad, la creatividad y los primeros hábitos de convivencia en un ambiente seguro y estimulante.
           </p>

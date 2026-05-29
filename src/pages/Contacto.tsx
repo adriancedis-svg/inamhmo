@@ -11,7 +11,7 @@ const Contacto = () => (
       <div className="container-narrow">
         <div className="max-w-2xl animate-fade-up">
           <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Contacto</span>
-          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Estamos para atenderle</h1>
+          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Contacto INAM Hermosillo: estamos para atenderle</h1>
           <p className="text-lg text-primary-foreground/85">
             Contáctenos por el medio que prefiera. Con gusto resolveremos sus dudas y le brindaremos toda la información que necesite.
           </p>

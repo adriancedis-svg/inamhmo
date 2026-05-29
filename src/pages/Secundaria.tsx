@@ -23,7 +23,7 @@ const Secundaria = () => (
       <div className="relative container-narrow section-padding text-primary-foreground">
         <div className="max-w-2xl animate-fade-up">
           <span className="inline-block mb-3 text-xs font-bold uppercase tracking-wider text-accent">Secundaria</span>
-          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Consolidar el conocimiento, fortalecer el carácter</h1>
+          <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">Secundaria INAM: consolidar el conocimiento, fortalecer el carácter</h1>
           <p className="text-lg text-primary-foreground/85 mb-8">
             En Secundaria INAM los alumnos profundizan su formación académica mientras desarrollan habilidades de liderazgo y pensamiento crítico.
           </p>
