@@ -3,6 +3,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import LevelCard from "@/components/LevelCard";
 import ContactForm from "@/components/ContactForm";
+import PrincipioSemana from "@/components/PrincipioSemana";
 import { Link } from "react-router-dom";
 import { GraduationCap, Heart, Users, Globe, BookOpen, Trophy } from "lucide-react";
 
@@ -50,6 +51,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Principio de la semana */}
+      <PrincipioSemana />
 
       {/* Niveles */}
       <section className="section-padding bg-gray-warm">
