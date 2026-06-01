@@ -52,6 +52,9 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Principio de la semana */}
+      <PrincipioSemana />
+
       {/* Niveles */}
       <section className="section-padding bg-gray-warm">
         <div className="container-narrow">
