@@ -134,14 +134,14 @@ const Index = () => {
       <section className="section-padding bg-primary text-primary-foreground">
         <div className="container-narrow">
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-4xl font-bold mb-3">Valores y liderazgo</h2>
+            <h2 className="text-2xl md:text-4xl font-bold mb-3">Principios y liderazgo</h2>
             <p className="text-primary-foreground/75 max-w-xl mx-auto">
               Buscamos formar personas íntegras, preparadas para los retos del mundo actual.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: Heart, title: "Valores sólidos", desc: "Respeto, honestidad, responsabilidad y empatía en cada actividad." },
+              { icon: Heart, title: "Principios universales", desc: "Respeto, honestidad, responsabilidad y empatía en cada actividad." },
               { icon: GraduationCap, title: "Excelencia académica", desc: "Programas actualizados que buscan el desarrollo integral del alumno." },
               { icon: Users, title: "Liderazgo", desc: "Fomentamos la toma de decisiones, el trabajo en equipo y la iniciativa." },
               { icon: Globe, title: "Visión multicultural", desc: "Preparamos alumnos para un mundo diverso y conectado." },
