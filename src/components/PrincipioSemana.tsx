@@ -1,4 +1,4 @@
-import { Sparkles, ShieldCheck } from "lucide-react";
+import { Sparkles, ShieldCheck, ExternalLink } from "lucide-react";
 
 const PrincipioSemana = () => {
   return (
