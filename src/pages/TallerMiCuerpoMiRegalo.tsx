@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO";
-import { BookOpen, Heart, Sparkles, ShieldCheck, Quote, Activity, Lightbulb } from "lucide-react";
+import { Link } from "react-router-dom";
+import { BookOpen, Heart, Sparkles, ShieldCheck, Quote, Activity, Lightbulb, ArrowLeft, Home } from "lucide-react";
 
 const TallerMiCuerpoMiRegalo = () => {
   return (
@@ -15,6 +16,13 @@ const TallerMiCuerpoMiRegalo = () => {
         <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-accent/25 blur-3xl" aria-hidden="true" />
         <div className="pointer-events-none absolute -bottom-28 -left-16 h-80 w-80 rounded-full bg-accent/10 blur-3xl" aria-hidden="true" />
         <div className="container-narrow section-padding relative">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 mb-6 text-sm font-semibold text-primary-foreground/80 hover:text-accent transition-colors"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Volver al inicio
+          </Link>
           <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/15 px-3.5 py-1 mb-5 backdrop-blur-sm">
             <ShieldCheck className="h-3.5 w-3.5 text-accent" />
             <span className="text-[0.7rem] md:text-xs font-semibold uppercase tracking-[0.18em] text-accent">
@@ -93,6 +101,16 @@ const TallerMiCuerpoMiRegalo = () => {
               Relacionar la base bíblica con la historia: Dios nos creó y nos cuida desde antes de nacer. Si alguien quiere tocar o jugar con nuestras partes especiales, debemos decir <strong>NO</strong>, alejarnos y contarlo a alguien que pueda cuidarnos.
             </p>
           </article>
+        </div>
+
+        <div className="mt-12 flex justify-center">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:-translate-y-0.5"
+          >
+            <Home className="h-4 w-4" />
+            Volver a la página principal
+          </Link>
         </div>
       </section>
     </main>
