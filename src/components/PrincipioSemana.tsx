@@ -1,4 +1,4 @@
-import { Sparkles, ShieldCheck } from "lucide-react";
+import { Sparkles, ShieldCheck, ExternalLink } from "lucide-react";
 
 const PrincipioSemana = () => {
   return (
@@ -22,6 +22,17 @@ const PrincipioSemana = () => {
             <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10" aria-hidden="true" />
 
             <div className="relative flex flex-col items-center text-center text-primary-foreground">
+              {/* Top link: Ver taller */}
+              <a
+                href="/talleres/mi-cuerpo-mi-regalo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-accent/50 bg-accent/15 px-4 py-1.5 mb-5 text-xs md:text-sm font-semibold text-accent backdrop-blur-sm transition-all hover:bg-accent hover:text-accent-foreground"
+              >
+                <ExternalLink className="h-3.5 w-3.5" />
+                Ver taller: Mi cuerpo, mi regalo
+              </a>
+
               {/* Pilar de la escuela badge */}
               <span className="inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/15 px-3.5 py-1 mb-5 backdrop-blur-sm">
                 <ShieldCheck className="h-3.5 w-3.5 text-accent" />

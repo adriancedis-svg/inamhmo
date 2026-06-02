@@ -14,6 +14,7 @@ const Secundaria = lazy(() => import("./pages/Secundaria"));
 const Preparatoria = lazy(() => import("./pages/Preparatoria"));
 const VidaEscolar = lazy(() => import("./pages/VidaEscolar"));
 const Contacto = lazy(() => import("./pages/Contacto"));
+const TallerMiCuerpoMiRegalo = lazy(() => import("./pages/TallerMiCuerpoMiRegalo"));
 
 const queryClient = new QueryClient();
 
@@ -39,6 +40,7 @@ const App = () => (
             <Route path="/preparatoria" element={<Preparatoria />} />
             <Route path="/vida-escolar" element={<VidaEscolar />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/talleres/mi-cuerpo-mi-regalo" element={<TallerMiCuerpoMiRegalo />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
