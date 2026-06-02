@@ -102,6 +102,16 @@ const TallerMiCuerpoMiRegalo = () => {
             </p>
           </article>
         </div>
+
+        <div className="mt-12 flex justify-center">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:-translate-y-0.5"
+          >
+            <Home className="h-4 w-4" />
+            Volver a la página principal
+          </Link>
+        </div>
       </section>
     </main>
   );
